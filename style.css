@@ -1,0 +1,106 @@
+header {
+  background: url("https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/72AYgWguyRFfesCrDJi8w8/35b0d50e819d179b4d99b5f8e44fb416/GettyImages-1255905368.jpg?w=1500&h=680&q=60&fit=fill&f=faces&fm=jpg&fl=progressive&auto=format%2Ccompress&dpr=1&w=1000&h=");
+  background-size: cover;
+  height: 100vh;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+.nav-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.links-container {
+  width: 30%;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-size: large;
+}
+
+.about-main {
+  margin: 30px;
+  padding: 30px;
+  border-radius: 30px;
+  background-color: rgb(248, 248, 255);
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-img {
+  width: 300px;
+  height: 300px;
+}
+
+.about-info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-info p {
+  width: 50%;
+}
+
+.about-list {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.projects-main {
+  margin: 30px;
+  padding: 5px;
+  border-radius: 30px;
+  background-color: rgb(248, 248, 255);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid black;
+}
+
+.project-img {
+  width: 100px;
+  height: 100px;
+}
+
+.project-info {
+  text-align: center;
+  width: 30%;
+}
+
+.contact-main {
+  margin: 30px;
+  padding: 30px;
+  border-radius: 30px;
+  background-color: rgb(248, 248, 255);
+  display: flex;
+  justify-content: center;
+}
